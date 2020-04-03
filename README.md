@@ -20,7 +20,7 @@ public class BannerTest {
     }
 }
 ```
-
+![效果图](https://github.com/vua/Banner/blob/master/img.png)
 ## 二.@Cache注解
 因为banner是根据@Banner注解的name属性值从本地库中遍历拼接出的所以会有一定时耗,而Banner name固定后一般不会改变,所以启用@Cache将上次运行时生成的banner保存在本地,下次运行就无需再次生成了
 
@@ -41,3 +41,5 @@ public class BannerTest {
     }
 }
 ```
+
+![效果图](https://github.com/vua/Banner/blob/master/img1.png)
