@@ -1,6 +1,6 @@
 # Banner
 ## 一. @Banner注解
-1.添加jar依赖
+1.添加jar依赖 [下载banner.jar](https://github.com/vua/Banner/releases/tag/v1)
 
 2.在方法上添加@Banner注解,设置打印内容(name),打印字体(type),打印颜色(color)
 ```
